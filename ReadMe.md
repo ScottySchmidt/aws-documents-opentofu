@@ -2,14 +2,14 @@
 
 ## Overview
 
-This project is an **AWS cloud application** built with **Terraform**.
+This project is an **AWS cloud application** built with **Terraform / OpenTofu**.
 
 The idea is simple: a user uploads a document, and the system stores it, processes it, saves the results, and shows reports.
 
-This is a strong project because it shows skills in:
+This project shows skills in:
 
 - AWS
-- Terraform
+- Terraform / OpenTofu
 - cloud architecture
 - APIs
 - security
@@ -52,9 +52,9 @@ The system then:
 
 ---
 
-## Why Terraform is used
+## Why Terraform / OpenTofu is used
 
-Terraform is used to create and manage the AWS infrastructure as code.
+Terraform / OpenTofu is used to create and manage the AWS infrastructure as code.
 
 This includes:
 
@@ -68,7 +68,7 @@ This includes:
 - CloudWatch logs
 - scheduled jobs
 
-Using Terraform makes the project easier to manage, reuse, and deploy.
+Using Terraform / OpenTofu makes the project easier to manage, reuse, and deploy.
 
 ---
 
@@ -94,7 +94,7 @@ insurance-doc-platform/
 │   ├── processor/          # document processing logic
 │   └── reporting/          # scheduled reporting jobs
 ├── terraform/
-│   ├── modules/            # reusable terraform modules
+│   ├── modules/            # reusable IaC modules
 │   ├── environments/       # dev and prod environments
 │   └── versions.tf
 ├── docs/                   # diagrams and notes
