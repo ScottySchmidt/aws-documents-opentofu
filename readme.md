@@ -1,4 +1,4 @@
-# AWS Insurance Document Processing Project
+# AWS Document Processing Project
 
 ## Overview
 
@@ -87,7 +87,7 @@ Using Terraform / OpenTofu makes the project easier to manage, reuse, and deploy
 ## Project Structure
 
 ```bash
-insurance-doc-platform/
+docment-platform/
 ├── app/                    # frontend app
 ├── services/
 │   ├── upload-api/         # API code
